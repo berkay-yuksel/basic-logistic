@@ -1,0 +1,150 @@
+.footerwrapper {
+
+  background: #2c2f3b;
+
+  
+  }
+  .footertop{
+    border-bottom: 1px solid rgba(76, 82, 103, 0.4);
+    padding: 3em 2em;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  
+.footercard:first-child{
+  margin-top: -0.9em;
+
+}
+.footercard:first-child p{
+  margin-top: -0.65em;
+
+}
+.footercard{
+  height: 100%;
+width: 230px;
+}
+
+
+.footercard a{
+  display: block;
+  
+}
+
+.footercard h2{
+  font-size: 0.9em;
+  margin: 0 0 1em;
+  color: white;
+}
+
+.footercard h3{
+  font-size: .77889em;
+  margin: 0 0 0.5em;
+  color: #999fb3;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+.footercard p{
+  color: #999fb3;
+    font-size: .77889em;
+    line-height: 1.66667;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 0 0 1em;
+
+}
+.footercard span{
+  display: flex;
+  margin:0.5em;
+  margin-left:0;
+
+}
+.footercard span h3{
+  margin:0;
+  margin-left:0.5em;
+}
+
+
+.footercard form button{
+  margin-top: 1em;
+  display: block;
+  background: #0072ff;
+  border: 2px solid #0072ff;
+  line-height: 1.5;
+  padding: .625em 2.5em;
+  color: white;
+ font-weight: 700;
+  border-radius: 3px;
+}
+
+.footercard input{
+  background: #fff;
+  border: 1px solid #ebecf0;
+  border-radius: 3px;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #2c2f3b;
+  display: block;
+
+  font-weight: normal;
+  line-height: 1.5;
+  max-width: 100%;
+  padding: 0.5em;
+  width: 100%;
+}
+
+.footerbottom{
+  padding: 1em 0;
+text-align: center;
+color: #999fb3;
+
+}
+.footerbottom div{
+  display: flex;
+align-content: center;
+justify-content: space-around;
+margin: 0 35%;
+}
+.footerbottom span{
+margin: 0 3%;
+font-size: .77889em;
+display: flex;
+align-content: center;
+}
+.footerbottom h3{
+  padding-top: 1em;
+font-size: .67889em;
+  margin: 0 0 0.5em;
+
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+.footercard button:hover{
+  color:black;
+  cursor: pointer;
+}
+
+
+.footerbottom span:hover{
+  color:white;
+  cursor: pointer;
+
+}
+
+.footercard span:hover{
+cursor: pointer;
+  filter: invert(1);
+  
+} 
+.footercard span h3:hover{
+  color:black !important;
+
+  
+} 
+.footerlogo{
+  filter: invert(1);
+}

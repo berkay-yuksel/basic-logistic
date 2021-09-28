@@ -1,0 +1,85 @@
+.featureswrapper{
+    padding: 3.33333em 4vw 2.5em;
+    
+}
+.testimonalshead{
+  
+    text-align: center;
+}
+.testimonalshead h2{
+    font-size: 1.66667em;
+    margin: 0 0 .25em;
+}
+.testimonalshead p{
+    color:#7b839e;
+    line-height: 1.5;
+}
+
+.cards{
+display: flex;
+align-items: center;
+justify-content: space-around;
+
+}
+
+.card{
+    background: #fff;
+    border: 1px solid #ebecf0;
+    border-radius: 3px;
+    box-shadow: 0 3px 10px 0 rgb(76 82 103 / 10%);
+    box-sizing: border-box;
+    height: 100%;
+    padding: 1.5em;
+    margin: 1.3%;
+}
+.info{
+    padding-top: 2.25em;
+    position: relative;
+}
+.info p{
+    color: #4c5267;
+    font-size: .77889em;
+    line-height: 1.66667;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 0 0 1em;
+}
+.info p::before {
+    color: #0072ff;
+    content: "\201C";
+    display: block;
+    font-size: 3.5em;
+    font-weight: 700;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+}
+
+.review{
+    display: flex;
+align-items: center;
+
+
+}
+
+.review img{
+    border-radius: 50%;
+    height: 45px;
+    margin-right: .9375em;
+    width: 45px;
+}
+.review cite{
+    color: #2c2f3b;
+    font-size: inherit;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
+    font-style: normal;
+    font-size: .77889em;
+    padding-left: 0.7em;
+ 
+}
+
+
+

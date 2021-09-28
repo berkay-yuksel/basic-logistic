@@ -1,0 +1,52 @@
+.actionwrapper{
+    display:flex;
+    align-items:center;
+    justify-content: space-around  ;
+    padding: 5% 8%;
+    background: linear-gradient(
+        90deg
+        ,#0072ff,#00c6ff);
+ 
+    color: white;
+}
+
+.actioninfo h2{
+    margin-bottom: .25em;
+font-size: 2em;
+margin:0;
+padding:0;  
+line-height: 1;
+}
+
+.actioninfo p{
+
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 0;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+}
+
+.actionwrapper button{
+    padding: .625em 2.5em; 
+    background: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: .625em 2.5em;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: color 0.7s ease;
+    
+}
+.actionwrapper button a{
+    font-weight: 700;
+    margin: 0 .375em 1.125em;
+    font-size: .88889em;
+   
+    
+}
+.actionwrapper button:hover {
+    border:2px solid  black;
+    color:#0072ff;
+}

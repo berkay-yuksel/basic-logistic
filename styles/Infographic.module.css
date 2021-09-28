@@ -1,0 +1,31 @@
+.igfwrapper{
+    display:flex;
+    align-items:center;
+    justify-content: space-around  ;
+    padding: 2% 8%;
+    background: linear-gradient(
+        90deg
+        ,#0072ff,#00c6ff);
+
+    color: white;
+}
+
+.igfcard {
+text-align: center;
+width: 260px;
+
+}
+.igfcard h1{
+padding: 0;
+margin:0;
+margin-block-start: 0;
+    margin-block-end: 0;
+}
+.igfcard p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.igfcard img{
+    filter: invert(100%)
+}

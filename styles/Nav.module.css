@@ -1,0 +1,41 @@
+
+.nav{
+    height:72px;
+    padding:10px;
+    background-color: white;
+    color:black;
+    display:flex;
+    align-items:center;
+    justify-content: space-between  ;
+    padding: 0 5%;
+    font-size: .88889rem;
+    line-height: 1.5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+    z-index:3;
+
+}
+
+.nav img{
+    cursor: pointer;
+}
+
+.nav ul{
+    display:flex;
+        justify-content: center;
+align-items:center;
+list-style: none;
+    }
+.nav ul li a {
+    margin: 5px 15px;
+    transition: color .15s ease;
+}
+.nav li:hover{
+
+color:#7b839e;
+
+}
+
+
