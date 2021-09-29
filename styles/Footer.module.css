@@ -128,23 +128,30 @@ font-size: .67889em;
   cursor: pointer;
 }
 
+.footercard span svg{
+
+  height: 18px;
+  width: 18px;
+  
+}
+.footercard span {
+align-items: center;
+  
+}
+
 
 .footerbottom span:hover{
   color:white;
   cursor: pointer;
 
 }
-
+.footercard h3:hover,
 .footercard span:hover{
 cursor: pointer;
-  filter: invert(1);
-  
+ fill:white;
+ color:white;
 } 
-.footercard span h3:hover{
-  color:black !important;
 
-  
-} 
 .footerlogo{
   filter: invert(1);
 }
