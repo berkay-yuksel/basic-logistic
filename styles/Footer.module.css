@@ -59,6 +59,7 @@ width: 230px;
   display: flex;
   margin:0.5em;
   margin-left:0;
+  fill:#999fb3;
 
 }
 .footercard span h3{
@@ -153,5 +154,30 @@ cursor: pointer;
 } 
 
 .footerlogo{
+  
   filter: invert(1);
+}
+
+@media screen and (max-width: 600px) {
+  .footercard{
+    margin-bottom: 1.5em;
+  }
+  .footertop{
+
+      display: block;
+  
+  }
+
+  .footertop{
+   
+    padding-top: 1.5em;
+  
+  }
+  .footercard input{
+    margin-bottom: 1.7em;
+  }
+ .footerbottom div{
+   margin:0;
+   margin-bottom: 1em;
+ }
 }

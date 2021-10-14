@@ -29,3 +29,19 @@ margin-block-start: 0;
 .igfcard img{
     filter: invert(100%)
 }
+
+
+@media screen and (max-width: 600px) {
+    .igfwrapper{
+        padding: 4% 1%;
+    }
+    .igfcard img{
+        height: 3.5em;
+    }
+    .igfcard h1{
+       font-size: .9em;
+    }
+    .igfcard p{
+        font-size:.5em;
+    }
+  }

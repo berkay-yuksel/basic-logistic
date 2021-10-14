@@ -1,0 +1,74 @@
+
+.hamburgerbtn{
+
+    background-color: transparent;
+    border:none;
+  
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+z-index: 200;
+}
+.line{
+    width: 40px;
+    height: 4px;
+    
+    display: block;
+    background-color: black;
+    margin: 3px 0;
+}
+@media screen and (min-width: 600px) {
+    .container{
+display: none;
+
+    }
+   
+  }
+
+  .openmenu{
+    height: 100%;
+    width: 0;
+    position: fixed;
+ 
+    top: 0;
+    right: 0;
+    background-color: orangered;
+    overflow-x: hidden;
+    transition: 0.5s;
+  
+
+  
+   
+ 
+   
+  }
+  .hamburgerbtn:hover{
+      cursor: pointer;
+   
+  }
+ 
+ .hamburgerbtn span{
+     font-size:3em;
+     padding-left: 0.5em;
+     line-height: 1.5;
+     
+ }
+ .hamburgerbtn span:hover{
+   cursor: pointer;
+    color: white;
+}
+ .openmenu h3:first-child{
+    margin-block-start: 2em;
+ }
+ .openmenu h3{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-left: 0.5em;
+  
+    
+}
+.openmenu h3:hover{
+    color:lightgrey
+}

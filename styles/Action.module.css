@@ -50,3 +50,17 @@ line-height: 1;
     border:2px solid  black;
     color:#0072ff;
 }
+
+
+@media screen and (max-width: 600px) {
+    .actionwrapper{
+        display:block;
+        text-align: center;
+    }
+    .actioninfo{
+        padding-bottom: 1em;
+    }
+    .actioninfo h2{
+        font-size: 1.2em;
+    }
+  }

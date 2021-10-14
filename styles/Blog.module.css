@@ -3,6 +3,7 @@
 }
 
 .bloghead{
+    
     text-align: center;
 }
 .bloghead h2{
@@ -18,10 +19,14 @@ justify-content: space-around;
 
 }
 
-
+.articletop div{
+    display: block !important;
+   
+}
 
 
 .bloglist article{
+    
     background: #fff;
     border: 1px solid #ebecf0;
     border-radius: 3px;
@@ -36,6 +41,7 @@ justify-content: space-around;
 
     opacity: .90;
 }
+
 
 .articlebottom{
     padding: 1.5em;
@@ -60,4 +66,18 @@ justify-content: space-around;
 
 .img{
     text-align: center;
+  
 }
+
+
+@media screen and (max-width: 600px) {
+    .bloglist{
+
+        display: block;
+
+    
+    }
+    .blogwrapper{
+        padding: 3.33333em 10vw 2.5em;
+    }
+  }

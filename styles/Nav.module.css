@@ -39,3 +39,10 @@ color:#7b839e;
 }
 
 
+@media screen and (max-width: 600px) {
+    .nav ul{
+        display:none;
+    }
+  }
+
+  

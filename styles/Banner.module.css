@@ -58,3 +58,20 @@
     margin: 0 .375em 1.125em;
     font-size: .88889em;
 }
+
+
+@media screen and (max-width: 600px) {
+ .title{
+   font-size: 2em;
+ }
+  .banner{
+  padding-bottom: 2em;
+  flex-direction: column;
+  }
+  .info{
+    width: auto;
+  }
+.pic{
+
+}
+}

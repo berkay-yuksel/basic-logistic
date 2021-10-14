@@ -90,3 +90,23 @@
   padding: 0 5%;
   flex-direction: row-reverse;
 }
+
+
+@media screen and (max-width: 600px) {
+
+ 
+  .featuresinfo{
+    width: auto;
+  }
+
+  .featuresbanner{
+
+      display: block;
+  
+  }
+  .featuresbannerreverse{
+
+    display: block;
+
+}
+}
