@@ -19,9 +19,8 @@ a {
 
 
 .active {
-  color: darkblue;
+  color: #007CE3;
   font-weight: bold;
-  font-size: 1.4em;
 } 
 
 @media screen and (max-width: 600px) {

@@ -59,7 +59,7 @@ const Questions = ()=> {
     overflow:hidden;
   }
   .header1{
-    color:${A || B ? 'black' : '#0099FF'};
+    color:${A || B ? 'black' : '#007CE3'};
   }
   .button2{
     max-height:${!A || B ? '0px' : '100%'};
@@ -67,20 +67,20 @@ const Questions = ()=> {
     overflow:hidden;
   }
   .header2{
-    color:${!A || B ? 'black' : '#0099FF'};
+    color:${!A || B ? 'black' : '#007CE3'};
   }
 
   .button3{
     max-height:${A || !B ? '0px' : '100%'};
-    color:${A || !B ? 'black' : '#0099FF'};
+    color:${A || !B ? 'black' : '#007CE3'};
     overflow:hidden;
   }
 .header3{
-  color:${A || !B ? 'black' : '#0099FF'};
+  color:${A || !B ? 'black' : '#007CE3'};
 }
   .button4{
     max-height:${!A || !B ? '0px' : '100%'};
-    color:${!A || !B ? 'black' : '#0099FF'};
+    color:${!A || !B ? 'black' : '#007CE3'};
     overflow:hidden;
  
   }
